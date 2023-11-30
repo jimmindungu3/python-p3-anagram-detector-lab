@@ -10,3 +10,4 @@ class Anagram:
         # Check if two words are anagrams by comparing sorted character lists
         return sorted(self.word) == sorted(candidate.lower())
 
+
